@@ -10,7 +10,7 @@ clearvars;
 
 
 %Loading in the image and storing the rgb values as separate matrices
-image = im2double(imread('25nm.png'));
+image = im2double(imread('20nm.png'));
 r = image(:,:,1);
 g = image(:,:,2);
 b = image(:,:,3);
